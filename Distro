@@ -2,9 +2,11 @@ print("Connceted and git_readed, yey!")
 print("It works, the new code has been executed!")
 
 a = True
-
+print("--------------")
+print("XXXXXXXXXXXXXX")
+print(" ")
 while a:
-  print("Running")
+  print("Script successfuly changed!")
   time.sleep(10)
   script = fetch_script(SCRIPT_URL)
   if script != last_script:
