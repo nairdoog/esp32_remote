@@ -1,4 +1,10 @@
 print("Connceted and git_readed, yey!")
 print("It works, the new code has been executed!")
-#print("Testing update time")
-#print("Testing update time2222 ----------------------------------")
+
+while True:
+  print("While loop running)
+  time.sleep(15)
+  print("fetching updates")
+  get_script(SCRIPT_URL)
+  print("-------------------------------")
+  print("updated")
